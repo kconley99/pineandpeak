@@ -28,14 +28,14 @@ header {
 .nav-links, .nav-links a {
     list-style: none; /* removes bullets on links */
     display: flex;
-    gap: 10px; /* space between nav items */
+    gap: 20px; /* space between nav items */
     flex-wrap: wrap; /* wraps content when screen size changes */
     text-decoration: none; /* remove underline on links */
 }
 
 .nav-links a:hover { /* change to color on hover */
     color: rgb(6, 59, 6);
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 .nav-links a:active { /* change to color on click */
