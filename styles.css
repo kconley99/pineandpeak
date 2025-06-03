@@ -7,24 +7,37 @@
 
 /* style guide */
 
+/* nav links */
 li {
     font-family: 'Orbitron', sans-serif;
     font-size: 16px;
     color: darkblue;
+    font-weight: 550;
 }
 
 /* header/nav menu */
 
 header {
     display: flex;
-    justify-content: space-between;
+    background-color: rgba(144, 238, 144, 0.2);
+    justify-content: space-around; /* main axis/ horizontal */
+    align-items: center; /* cross axis /vertical */
+
 }
 
-.nav-links {
-    list-style: none;
-    justify-content: center;
+.nav-links, .nav-links a {
+    list-style: none; /* removes bullets on links */
+    display: flex;
+    gap: 10px; /* space between nav items */
+    flex-wrap: wrap; /* wraps content when screen size changes */
+    text-decoration: none; /* remove underline on links */
 }
 
-a {
-    text-decoration: none;
+.nav-links a:hover { /* change to color on hover */
+    color: rgb(6, 59, 6);
+    transition: 0.3s;
+}
+
+.nav-links a:active { /* change to color on click */
+    color: black;
 }
