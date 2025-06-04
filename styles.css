@@ -22,7 +22,6 @@ header {
     background-color: rgba(144, 238, 144, 0.2);
     justify-content: space-around; /* main axis/ horizontal */
     align-items: center; /* cross axis /vertical */
-
 }
 
 .nav-links, .nav-links a {
@@ -41,3 +40,25 @@ header {
 .nav-links a:active { /* change to color on click */
     color: black;
 }
+
+/* hero */
+.hero {
+    background-image: url(images/hero.jpg);
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/flower-herb-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7; /* Adjust for transparency */
+    z-index: 0;
+  }
