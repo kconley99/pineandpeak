@@ -183,25 +183,20 @@ section h3 {
     margin: 30px;
 }
 
-.container img, .container p {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    text-align: left;
-}
-
 .container img {
     border-radius: 50%;
     margin-left: 25px;
 }
 
-.card {
+.testimony {
     background-color: whitesmoke;
     box-shadow: 2px 1px 10px grey;
     padding: 15px;
     gap: 15px;
     display: flex;
     border-radius: 20px;
+    align-items: center;
+    text-align: left;
 }
 
 footer {
