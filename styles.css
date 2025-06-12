@@ -346,7 +346,7 @@ footer {
     }
 
     #contact-form {
-        max-width: 350px;
+        width: 350px;
     }
 
     .contact-section img {
@@ -362,6 +362,6 @@ footer {
     }
 
     #contact-form {
-        max-width: 600px;
+        width: 600px;
     }
 }
