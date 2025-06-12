@@ -141,6 +141,7 @@ header {
     text-align: center;
 }
 
+/* home page */
 .intro-container {
     display: flex;
     flex-direction: row;
@@ -207,6 +208,8 @@ section h3 {
     text-align: left;
 }
 
+/* adventure page */
+
 .packages-container {
     display: flex;
     flex-direction: column;
@@ -234,6 +237,7 @@ section h3 {
     border: 2px outset rgba(144, 238, 144);
 }
 
+/* about page */
 .team-container {
     display: flex;
     gap: 25px;
@@ -270,6 +274,7 @@ section h3 {
     padding: 20px;
 }
 
+/* contact page */
 .form-container {
     display: flex;
     justify-content: center;
@@ -327,4 +332,36 @@ footer {
     align-items: center;
     gap: 30px;
     color: darkblue;
+}
+
+/* media queries */
+@media (max-width: 425px) {
+    .intro-container {
+        flex-direction: column;
+    }
+
+    .checks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact-form {
+        max-width: 350px;
+    }
+
+    .contact-section img {
+        width: 350px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-container {
+        padding: 0;
+        gap: 0;
+    }
+
+    #contact-form {
+        max-width: 600px;
+    }
 }
