@@ -406,3 +406,27 @@ footer {
         flex-direction: column;
     }
 }
+
+@media (max-width: 375px) { 
+    h1 {
+        font-size: 22px;
+        max-width: 80%;
+    }
+
+    h2 {
+        font-size: 18px;
+        max-width: 80%;
+    }
+
+    .container img {
+        margin-left: 0;
+    }
+
+    .testimony {
+        flex-direction: column;
+    }
+
+    li {
+        font-size: 16px;
+    }
+}
