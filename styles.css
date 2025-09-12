@@ -33,7 +33,7 @@ h2 {
 
 h3 {
     font-family: 'Orbitron', serif;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 h4 {
@@ -279,7 +279,7 @@ section h3 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: ;
+    background-color: lightgrey;
     padding: 40px;
 }
 
@@ -375,7 +375,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
     .intro-container {
         padding: 0;
         gap: 0;
@@ -396,4 +396,9 @@ footer {
     #contact-form {
         width: 600px;
     }
+
+    .check-item {
+        font-size: 12px;
+    }
 }
+
