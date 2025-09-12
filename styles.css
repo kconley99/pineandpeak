@@ -169,7 +169,6 @@ header {
 .check-item {
     display: flex;
     align-items: center; /* Align icon and text vertically */
-    gap: 15px; /* Space between icon and h3 */
 }
 
 .check-item i {
